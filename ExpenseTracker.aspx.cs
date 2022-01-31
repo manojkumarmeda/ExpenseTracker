@@ -15,7 +15,5 @@ public partial class ExpenseTracker : System.Web.UI.Page
 
     protected void butt_Click(object sender, EventArgs e)
     {
-        string product = txtproduct.Text;
-        lblmsg.Text = product;
     }
 }
